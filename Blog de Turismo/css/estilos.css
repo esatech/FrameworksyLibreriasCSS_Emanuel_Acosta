@@ -1,6 +1,21 @@
-.cont-pri{
-  height: 100px;
+.turismo-body{
+  background: url(../img/fondo_cabecera.jpg) top center,
+              url(../img/fondo.jpg) bottom center;
+  background-repeat: no-repeat;
+  background-size: 100% 15%, 100% 100%;
+  background-attachment:fixed;
+  width: 100%;
+  height: 100%;
 }
-.barra{
-  opacity: 0;
+.cont-pri{
+  width: 100%;
+}
+header img{
+  margin-top: 2vw;
+  width: 150px;
+  border-radius: 15px;
+  border: 5px solid white;
+}
+.bot-nav{
+  margin-top: 2vw;
 }
