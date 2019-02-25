@@ -11,6 +11,7 @@
 header img{
   margin-top: 1vw;
   width: 150px;
+  opacity: 0.9;
   border-radius: 15px;
   border: 5px solid white;
 }
@@ -33,14 +34,17 @@ div img[class*="logo-redes"]{
   filter: grayscale(100%);
   width: 80%;
 }
+div img[class*="img-destino"]{
+  height: 15rem;
+}
 
 /* Querie para moviles */
 @media (max-width:420px) {
   header img{
-    width: 100px;
+    width: 90px;
   }
   header h4{
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-top: 5vw;
   }
 }
