@@ -44,8 +44,9 @@ div img[class*="logo-redes"]{
   margin-top: 6%;
 }
 .img-autor{
-  width: 80%;
-  margin: 2%;
+  width: 60%;
+  margin: 4% 0% 0% 20%;
+  border: 3px solid black;
 }
 
 /* Querie para moviles */
