@@ -29,7 +29,11 @@ div[class*="columna"]{
 div[class*="fotos"]{
   height: 25rem;
 }
-
+div img[class*="logo-redes"]{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: 80%;
+}
 
 /* Querie para moviles */
 @media (max-width:420px) {
