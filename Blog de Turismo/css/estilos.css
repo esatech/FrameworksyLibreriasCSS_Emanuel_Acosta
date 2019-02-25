@@ -24,9 +24,6 @@ header h4{
 
 /* Estilos para Section */
 div[class*="columna"]{
-  min-height: 50rem;
-}
-div[class*="fotos"]{
   min-height: 25rem;
 }
 div img[class*="logo-redes"]{
@@ -34,8 +31,21 @@ div img[class*="logo-redes"]{
   filter: grayscale(100%);
   width: 80%;
 }
-div img[class*="img-destino"]{
-  height: 15rem;
+.img-destino3{
+  width: 25rem;
+}
+.img-destino2{
+  width: 30rem;
+}
+.cont-publi{
+  padding: 1%;
+}
+.img-publi{
+  margin-top: 6%;
+}
+.img-autor{
+  width: 80%;
+  margin: 2%;
 }
 
 /* Querie para moviles */
