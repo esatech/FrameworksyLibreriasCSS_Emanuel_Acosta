@@ -9,25 +9,24 @@
   height: 100%;
 }
 header img{
-  margin-top: 3vw;
+  margin-top: 1vw;
   width: 150px;
   border-radius: 15px;
   border: 5px solid white;
 }
 header h4{
-  margin-top: 2.5vw;
+  margin-top: 3vw;
 }
 .bot-nav{
-  margin-top: 2vw;
+  margin-top: 1vw;
 }
 
 /* Estilos para Section */
 div[class*="columna"]{
-  height: 50rem;
   min-height: 50rem;
 }
 div[class*="fotos"]{
-  height: 25rem;
+  min-height: 25rem;
 }
 div img[class*="logo-redes"]{
   -webkit-filter: grayscale(100%);
@@ -38,7 +37,7 @@ div img[class*="logo-redes"]{
 /* Querie para moviles */
 @media (max-width:420px) {
   header img{
-    width: 120px;
+    width: 100px;
   }
   header h4{
     font-size: 2rem;
