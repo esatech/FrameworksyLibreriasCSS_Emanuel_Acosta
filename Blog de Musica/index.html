@@ -10,14 +10,14 @@
     <title>Blog Musica</title>
   </head>
   <body class="musica-body">
-    <header class="container cont-cabecera">
+    <header class="container contenedores">
       <!-- logo -->
       <div class="col-xs-6 col-md-3">
         <img src="img/logo.png" alt="logo" class="logo">
       </div>
       <!-- redes -->
       <div class="row cont-redes">
-        <div class="col-xs-6 col-md-3 col-xs-offset-3 col-md-offset-9">
+        <div class="col-xs-6 col-md-3 col-xs-offset-6 col-md-offset-9">
           <a href="#"><img src="img/logo_facebook.png" alt="logo facebook" class="logo-redes img-rounded"></a>
           <a href="#"><img src="img/logo_instagram.png" alt="logo instagram" class="logo-redes img-rounded"></a>
           <a href="#"><img src="img/logo_tw.png" alt="logo twitter" class="logo-redes img-rounded"></a>
@@ -25,6 +25,7 @@
           <a href="#"><img src="img/logo_pint.png" alt="logo pinterest" class="logo-redes img-rounded"></a>
         </div>
       </div>
+      <!-- Botones de navegacion -->
       <div class="row">
         <ul class="nav nav-pills nav-justified navbar-inverse">
           <li class="nav-item">
@@ -48,9 +49,89 @@
         </ul>
       </div>
     </header>
+    <div class="row">.</div> <!-- Separador -->
+    <section class="container contenedores">
+      <div class="row">
+        <!-- Publicaciones -->
+        <div class="col-xs-12 col-md-8">
+          <!-- Publicacion 1 -->
+          <div class="col-xs-12">
+            <div class="col-xs-12 col-md-8 text-publi">
+              <h3>Los beatles</h3>
+              <p>
+                The Beatles fue una banda de rock9​ inglesa activa durante la década de 1960, y reconocida como la más exitosa comercialmente y la más alabada por la crítica en la historia de la música popular y de la música rock.10​11​12​13​14​ Formada en Liverpool, estuvo constituida desde 1962 por John Lennon (guitarra rítmica, vocalista), Paul McCartney (bajo, vocalista), George Harrison (guitarra solista, vocalista) y Ringo Starr (batería, vocalista). Enraizada en el skiffle y el rock and roll de los años 1950, la banda trabajó más tarde con distintos géneros musicales, tales como rock and roll y pop de los 50's, rock pop, música beat, folk rock, rock psicodélico hasta hard rock, incorporando a menudo elementos clásicos, entre otros, de forma innovadora en sus canciones. La naturaleza de su enorme popularidad, que había emergido primeramente con la moda de la «beatlemanía», se transformó al tiempo que sus composiciones se volvieron más sofisticadas. Llegaron a ser percibidos como la encarnación de los ideales progresistas, extendiendo su influencia en las revoluciones sociales y culturales de la década de 1960.
+              </p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <img src="img/pub1.jpg" alt="foto publicacion 1" class="img-publi">
+            </div>
+          </div>
+          <!-- comentario -->
+          <div class="row">
+            <div class="col-xs-2 col-md-1">
+              <img src="img/comentario.png" alt="logo comentario" class="logo-publi img-rounded">
+            </div>
+            <div class="col-xs-9 col-md-11">
+              <form class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Comentar" rows="2"></textarea>
+              </form>
+            </div>
+          </div>
 
-    <section>
-
+          <!-- Publicacion 2 -->
+          <div class="col-xs-12">
+            <div class="col-xs-12 col-md-4">
+              <img src="img/pub2.png" alt="foto publicacion 2" class="img-publi">
+            </div>
+            <div class="col-xs-12 col-md-8 text-publi">
+              <h3>Los pentagramas</h3>
+              <p>
+                La pauta musical o pentagrama tal como lo conocemos hoy se originó a partir de la notación musical del canto gregoriano en la Edad Media. Hasta ese momento se utilizaba una serie de signos en conjunción con el texto para representar la altura. Sin embargo, cuando los cantos propiamente dichos fueron escritos se comenzaron a emplear líneas para representar la altura, junto con los signos indicadores de altura por encima del texto. Cuando se empieza a utilizar la pauta musical apenas se usaba una línea coloreada, que data del siglo IX. Dicha línea se colocaba sobre el texto del canto. La altura estaba representada por la distancia de las notas en relación a la línea. Como esto no era muy preciso, con el tiempo se fueron añadiendo más líneas hasta configurar el pentagrama que usamos hoy en día.
+              </p>
+            </div>
+          </div>
+          <!-- comentario -->
+          <div class="row">
+            <div class="col-xs-2 col-md-1">
+              <img src="img/comentario.png" alt="logo comentario" class="logo-publi img-rounded">
+            </div>
+            <div class="col-xs-9 col-md-11">
+              <form class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Comentar" rows="2"></textarea>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- Columna buscador -->
+        <div class="col-xs-4 hidden-sm hidden-xs">
+          <div class="col-xs-12">
+            <!-- comentario -->
+            <div class="row comentarios">
+              <div class="col-xs-2 col-md-2">
+                <img src="img/lupa.png" alt="lupa" class="logo-buscador img-rounded">
+              </div>
+              <div class="col-xs-9 col-md-10">
+                <form class="form-group">
+                  <input type="text" class="form-control" id="buscador" placeholder="Buscar por...">
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-10 col-xs-offset-2">
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action">Notas</a>
+              <a href="#" class="list-group-item list-group-item-action">Melodias</a>
+              <a href="#" class="list-group-item list-group-item-action">Artistas</a>
+              <a href="#" class="list-group-item list-group-item-action">Canciones</a>
+              <a href="#" class="list-group-item list-group-item-action">Recitales</a>
+              <a href="#" class="list-group-item list-group-item-action">Album</a>
+              <a href="#" class="list-group-item list-group-item-action">Interpretes</a>
+              <a href="#" class="list-group-item list-group-item-action">Pais</a>
+              <a href="#" class="list-group-item list-group-item-action">Estilos</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>

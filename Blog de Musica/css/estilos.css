@@ -1,7 +1,8 @@
+/* Estilos header */
 .musica-body {
   background: #6E6E6E;
 }
-.cont-cabecera{
+.contenedores{
   background: #2E9AFE;
   min-height: 10%;
 }
@@ -23,4 +24,39 @@
 }
 .navbar-inverse a{
   color: #2E9AFE;
+}
+
+/* Estilos section */
+.img-publi{
+  margin-top: 15%;
+  margin-bottom: 4%;
+  width: 100%;
+}
+.text-publi h3{
+  color: white;
+}
+.text-publi p{
+  color: white;
+}
+.logo-publi{
+  margin-left: 50%;
+  margin-top: 50%;
+  width: 100%;
+}
+.comentarios{
+  margin-top: 2%;
+}
+.logo-buscador{
+  width: 100%;
+  margin-top: 10%;
+  margin-left: 50%;
+}
+
+/* queries pantallas medianas */
+@media (min-width:421px) and (max-width:980px) {
+  .logo-publi{
+    margin-left: 40%;
+    margin-top: 0%;
+    width: 70%;
+  }
 }
