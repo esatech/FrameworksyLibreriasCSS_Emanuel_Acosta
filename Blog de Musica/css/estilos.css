@@ -1,6 +1,10 @@
 .musica-body {
   background: #6E6E6E;
 }
+.cont-cabecera{
+  background: #2E9AFE;
+  min-height: 10%;
+}
 .logo {
   width: 90%;
   margin-bottom: 3%;
@@ -12,6 +16,11 @@
   margin-bottom: 2%;
 }
 .navbar-inverse {
-  background: #2E9AFE;
+  background: #08088A;
+  color: black;
   min-height: 10%;
+  width: 100%;
+}
+.navbar-inverse a{
+  color: #2E9AFE;
 }
