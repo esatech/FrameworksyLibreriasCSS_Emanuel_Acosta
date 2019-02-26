@@ -1,0 +1,17 @@
+.musica-body {
+  background: #6E6E6E;
+}
+.logo {
+  width: 90%;
+  margin-bottom: 3%;
+}
+.logo-redes{
+  width: 15%;
+}
+.cont-redes{
+  margin-bottom: 2%;
+}
+.navbar-inverse {
+  background: #2E9AFE;
+  min-height: 10%;
+}
