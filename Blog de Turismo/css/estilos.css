@@ -32,10 +32,7 @@ div img[class*="logo-redes"]{
   width: 80%;
 }
 .img-destino3{
-  width: 25rem;
-}
-.img-destino2{
-  width: 30rem;
+  width: 100%;
 }
 .cont-publi{
   padding: 1%;
