@@ -14,6 +14,9 @@
   border-right: 1px solid white;
   padding: 0;
 }
+.cont-titulo h5{
+  padding-right: 2%;
+}
 hr{
   border-color: white;
 }
@@ -30,6 +33,32 @@ hr{
 .img-lupa img{
   margin-top: 10%;
   width: 60%;
+}
+.col-menu{
+  padding-left: 0;
+  padding-right: 8%;
+}
+.menu-izq{
+  border: solid 1px;
+  border-color: rgb(245,169,188);
+  text-align:center;
+  list-style:none;
+  margin: ;
+}
+.color-texto{
+  color: rgb(245,169,188);
+}
+.img-comidas-fav img{
+  height: 200px;
+  width: 200px;
+}
+.cont-img-fav{
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.cont-img-fav div{
+  padding: 1%;
 }
 
 /* Querie para celulares */
