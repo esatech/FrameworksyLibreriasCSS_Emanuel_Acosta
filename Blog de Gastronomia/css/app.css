@@ -76,6 +76,13 @@ hr{
   background-color: #B40431;
   border-radius: 3px;
 }
+.cont-comentarios{
+  border-bottom: white 1px solid;
+  border-radius: 4px;
+}
+.cont-comentarios img{
+  padding: 4%;
+}
 
 /* Querie para celulares */
 @media (max-width:420px) {
