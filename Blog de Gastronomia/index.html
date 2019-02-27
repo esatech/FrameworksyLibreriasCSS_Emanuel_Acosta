@@ -9,24 +9,48 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body class="gastro-body">
-    <header>
+      <!-- contenedor principal -->
       <div class="row">
-        <div class="columns small-12 medium-10 medium-offset-1 cont-principal">
-          <!-- Titulo y slogan -->
-          <div class="columns small-4 cont-titulo">
-            <h3>Cocinando</h3>
-            <div class="row">
-              <h5 class="text-right">El blog para los amantes de la gastronomia</h5>
-            </div>
-          </div>
+        <div class="columns medium-10 medium-offset-1 cont-principal">
 
+          <header>
+          <!-- Titulo y slogan -->
+          <div class="columns medium-4 hide-for-small-only cont-titulo">
+            <h3>Cocinando</h3>
+            <h5 class="text-right">El blog para los amantes de la gastronomia</h5>
+          </div>
+          </header>
+
+          <hr class="hide-for-small-only"> <!-- divisor -->
+
+          <section>
+            <!-- Columna Izquierda -->
+              <div class="columns medium-4 hide-for-small-only col-izq">
+                <div class="columns medium-10">
+                  <form>
+                    <div class="grid-container">
+                      <div class="grid-x grid-padding-x">
+                        <div class="medium-12 cell">
+                          <input type="text" placeholder="Buscar...">
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="columns medium-2 img-lupa">
+                  <img src="img/lupa.png" alt="Lupa">
+                </div>
+
+              </div>
+              <!-- Columna Derecha -->
+              <div class="columns small-12 medium-8">
+                <h3>Cocinando</h3>
+                <h5 class="text-right">El blog para los amantes de la gastronomia</h5>
+              </div>
+
+          </section>
         </div>
       </div>
-    </header>
-    <section>
-
-    </section>
-
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>

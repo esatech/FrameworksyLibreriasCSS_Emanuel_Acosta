@@ -8,14 +8,32 @@
   height: 100%;
 }
 .cont-principal{
-  background-color: #F5A9BC;
-  opacity: 0.8;
-  padding-left: 0;
-  border-bottom: 1px solid white;
+  background-color: rgba(245,169,188,0.8);
 }
 .cont-titulo{
   border-right: 1px solid white;
+  padding: 0;
 }
-.cont-titulo h5{
-  padding-right: 3%;
+hr{
+  border-color: white;
+}
+
+/* Estilos para Section*/
+.col-izq{
+  background-color: rgba(154,46,254,0.8);
+  padding: 1%;
+  border-radius: 10px;
+}
+.img-lupa{
+  padding: 0;
+}
+.img-lupa img{
+  margin-top: 10%;
+  width: 60%;
+}
+
+/* Querie para celulares */
+@media (max-width:420px) {
+
+  }
 }
