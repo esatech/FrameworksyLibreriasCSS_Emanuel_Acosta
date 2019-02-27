@@ -14,8 +14,11 @@
   border-right: 1px solid white;
   padding: 0;
 }
-.cont-titulo h5{
+.cont-titulo h6{
   padding-right: 2%;
+}
+.color-titulo{
+  color: #B40431;
 }
 hr{
   border-color: white;
@@ -26,6 +29,7 @@ hr{
   background-color: rgba(154,46,254,0.8);
   padding: 1%;
   border-radius: 10px;
+  margin-left: 2%;
 }
 .img-lupa{
   padding: 0;
@@ -64,6 +68,13 @@ hr{
 }
 .cont-img-fav div{
   padding: 1%;
+}
+.col-der{
+  margin-right: 1%;
+}
+.cont-publi{
+  background-color: #B40431;
+  border-radius: 3px;
 }
 
 /* Querie para celulares */
