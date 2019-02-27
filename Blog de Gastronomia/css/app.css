@@ -1,3 +1,21 @@
-div{
-  border: 1px solid black;
+/* Estilos para Header */
+.gastro-body{
+  background: url(../img/fondo.jpg) top center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment:fixed;
+  width: 100%;
+  height: 100%;
+}
+.cont-principal{
+  background-color: #F5A9BC;
+  opacity: 0.8;
+  padding-left: 0;
+  border-bottom: 1px solid white;
+}
+.cont-titulo{
+  border-right: 1px solid white;
+}
+.cont-titulo h5{
+  padding-right: 3%;
 }
