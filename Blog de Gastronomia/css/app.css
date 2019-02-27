@@ -45,12 +45,17 @@ hr{
   list-style:none;
   margin: ;
 }
+.color-link:hover{
+  color: black;
+}
 .color-texto{
   color: rgb(245,169,188);
 }
 .img-comidas-fav img{
   height: 200px;
   width: 200px;
+  border: 2px solid white;
+
 }
 .cont-img-fav{
   margin-bottom: 10px;
